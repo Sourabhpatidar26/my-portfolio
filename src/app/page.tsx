@@ -30,7 +30,7 @@ export default function Home() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <h1 className="heading">Hi, I'm <span style={{ color: 'var(--primary-color)' }}>Sourabh</span></h1>
+              <h1 className="heading">Hi, I&apos;m <span style={{ color: 'var(--primary-color)' }}>Sourabh</span></h1>
               <p className="subheading">MERN Stack & React Native Developer</p>
               <p style={{ color: 'var(--dark-text-secondary)', marginBottom: '2rem' }}>
                 I create beautiful and functional web and mobile applications using modern technologies.
@@ -68,7 +68,7 @@ export default function Home() {
           >
             <h2 className="heading">About Me</h2>
             <p style={{ color: 'var(--dark-text)', maxWidth: '800px' }}>
-              I'm a passionate developer with 2.5 years of experience in building web and mobile applications.
+              I&apos;m a passionate developer with 2.5 years of experience in building web and mobile applications.
               My journey in software development started october 2022. I specialize in creating scalable
               and maintainable applications using the MERN stack and React Native.
             </p>
@@ -224,7 +224,7 @@ export default function Home() {
                 custom={0}
               >
                 <p style={{ color: 'var(--dark-text-secondary)', marginBottom: '1.5rem' }}>
-                  I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+                  I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
                 </p>
                 <div style={{ display: 'flex', gap: '1rem', marginBottom: '1.5rem' }}>
                   <a href="#" style={{ color: 'var(--dark-text-secondary)', transition: 'color 0.2s' }}>
