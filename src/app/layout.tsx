@@ -4,6 +4,7 @@ import "./globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import ThemeToggle from "@/components/ThemeToggle";
+import AnimatedCursor from "@/components/AnimatedCursor";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body className={inter.className}>
         <Navigation />
+        <AnimatedCursor />
         {children}
         <Footer />
         <ThemeToggle />
